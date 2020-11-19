@@ -1,0 +1,59 @@
+h1, h2, h3{
+	font-family: Times, Times New Roman, serif;
+	color: #79DFAF;
+	font-weight: bold;
+	text-align: left;
+}
+
+.images_a{
+	width: 140px;
+	height:140px;
+
+}
+img{
+	margin: 2px;
+}
+
+p{
+	text-align: left;
+	color:gray;
+	padding: 10px;
+	margin: 5px;
+
+}
+
+body{
+	padding:10px;
+	margin:10px;
+	font-family:Times, Times New Roman, serif; 
+	background-color: DFDFDF;
+}
+
+.nav{
+	background-color: White;
+
+}
+
+.nav-a{
+	background-color: LightSeaGreen;
+	color: White !important;
+	text-align: center;
+	font-weight: bold;
+	padding: inherit;
+}
+
+
+
+
+
+.back{
+	background-color: white;
+	padding: 20px;
+	margin-top: 100px;
+}
+
+@media(max-width: 767px){
+	.nav{
+		background-color: LightSeaGreen !important;
+		text: White !important;
+	}
